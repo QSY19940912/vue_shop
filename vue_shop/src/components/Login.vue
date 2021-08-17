@@ -45,11 +45,7 @@ export default {
       loginFormRoules: {
         username: [
           { required: true, message: '请输入正确用户名', trigger: 'blur' },
-<<<<<<< HEAD
           { min: 3, max: 10, message: '长度在3~10', trigger: 'blur' }
-=======
-          { min: 3, max: 10, message: '长度在3~8个字符', trigger: 'blur' }
->>>>>>> dfb9ed54f9d089819dc19132eb1e6a6d88c8c1d3
         ],
         password: [
           { required: true, message: '请输入正确密码', trigger: 'blur' },
